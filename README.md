@@ -32,12 +32,13 @@ Find max
 ```
 Test Case-1
 Input
-```
+
 Enter the size of matrix (length and breadth)<br>
 4 4
 ```
-Output
 ```
+Output
+
 The matrix generated is:<br>
 25 46 75 53 <br>
 69 38 75 18 <br>
@@ -61,7 +62,7 @@ frequency of 73->1 and locations are->(4,2) <br>
 frequency of 75->2 and locations are->(1,3) (2,3) <br>
 frequency of 83->1 and locations are->(3,2) <br>
 frequency of 92->1 and locations are->(4,1) <br>
-
+```
 ---
 
 ### Theory
