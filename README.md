@@ -39,7 +39,7 @@ Enter the size of matrix (length and breadth)
 ```
 Output
 
-The matrix generated is:<br>
+The matrix generated is:
 25 46 75 53 
 69 38 75 18 
 62 83 49 67 
