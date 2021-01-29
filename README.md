@@ -33,35 +33,35 @@ Find max
 Test Case-1
 Input
 
-Enter the size of matrix (length and breadth)<br>
+Enter the size of matrix (length and breadth)
 4 4
 ```
 ```
 Output
 
 The matrix generated is:<br>
-25 46 75 53 <br>
-69 38 75 18 <br>
-62 83 49 67 <br>
-92 73 22 66 <br>
+25 46 75 53 
+69 38 75 18 
+62 83 49 67 
+92 73 22 66 
 
-THE FREQUENCY DISTRIBUTION ARE AS FOLLOWS: <br>
+THE FREQUENCY DISTRIBUTION ARE AS FOLLOWS: 
 
-frequency of 18->1 and locations are->(2,4) <br>
-frequency of 22->1 and locations are->(4,3) <br>
-frequency of 25->1 and locations are->(1,1) <br>
-frequency of 38->1 and locations are->(2,2) <br>
-frequency of 46->1 and locations are->(1,2) <br>
-frequency of 49->1 and locations are->(3,3) <br>
-frequency of 53->1 and locations are->(1,4) <br>
-frequency of 62->1 and locations are->(3,1) <br>
-frequency of 66->1 and locations are->(4,4) <br>
-frequency of 67->1 and locations are->(3,4) <br>
-frequency of 69->1 and locations are->(2,1) <br>
-frequency of 73->1 and locations are->(4,2) <br>
-frequency of 75->2 and locations are->(1,3) (2,3) <br>
-frequency of 83->1 and locations are->(3,2) <br>
-frequency of 92->1 and locations are->(4,1) <br>
+frequency of 18->1 and locations are->(2,4) 
+frequency of 22->1 and locations are->(4,3) 
+frequency of 25->1 and locations are->(1,1) 
+frequency of 38->1 and locations are->(2,2) 
+frequency of 46->1 and locations are->(1,2) 
+frequency of 49->1 and locations are->(3,3) 
+frequency of 53->1 and locations are->(1,4) 
+frequency of 62->1 and locations are->(3,1) 
+frequency of 66->1 and locations are->(4,4) 
+frequency of 67->1 and locations are->(3,4) 
+frequency of 69->1 and locations are->(2,1) 
+frequency of 73->1 and locations are->(4,2) 
+frequency of 75->2 and locations are->(1,3) (2,3) 
+frequency of 83->1 and locations are->(3,2) 
+frequency of 92->1 and locations are->(4,1) 
 ```
 ---
 
