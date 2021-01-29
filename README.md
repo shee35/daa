@@ -24,31 +24,6 @@ A quick and simplified answer is download the source code and run it on any gcc 
 #Download project
 git clone https://github.com/shee35/daa 
 ```
-Project Initialize 
-```
-cd daa
-#create assignment-1 folder
-mkdir assignment_01
-
-#go to assignment-1
-cd assignment_01
-
-#Create file
-touch readme.md
-touch main.py
-.
-.
-```
----
-
-Run the code
-```
-python main.py
-```
-Output
-```
-Curve fitting using Least squares Approximation
-```
 ---
 
 **Test case**
@@ -56,19 +31,36 @@ Curve fitting using Least squares Approximation
 Find max
 ```
 Test Case-1
-Input:
-6
-2 4 8 0 2 1
-Out:
-8
-#--------------------------#
-Test Case-2
-Input:
-6
-2 4 8 0 2 1
-Out:
-8
+Input
 ```
+Enter the size of matrix (length and breadth)<br>
+4 4
+```
+Output
+```
+The matrix generated is:<br>
+25 46 75 53 <br>
+69 38 75 18 <br>
+62 83 49 67 <br>
+92 73 22 66 <br>
+
+THE FREQUENCY DISTRIBUTION ARE AS FOLLOWS: <br>
+
+frequency of 18->1 and locations are->(2,4) <br>
+frequency of 22->1 and locations are->(4,3) <br>
+frequency of 25->1 and locations are->(1,1) <br>
+frequency of 38->1 and locations are->(2,2) <br>
+frequency of 46->1 and locations are->(1,2) <br>
+frequency of 49->1 and locations are->(3,3) <br>
+frequency of 53->1 and locations are->(1,4) <br>
+frequency of 62->1 and locations are->(3,1) <br>
+frequency of 66->1 and locations are->(4,4) <br>
+frequency of 67->1 and locations are->(3,4) <br>
+frequency of 69->1 and locations are->(2,1) <br>
+frequency of 73->1 and locations are->(4,2) <br>
+frequency of 75->2 and locations are->(1,3) (2,3) <br>
+frequency of 83->1 and locations are->(3,2) <br>
+frequency of 92->1 and locations are->(4,1) <br>
 
 ---
 
@@ -91,6 +83,6 @@ The complexity of both the algorithm is almost same for small inputs which is ge
 
 ### References
 
-[Link1](https://www.geeksforgeeks.org/find-frequency-number-array/)
+[Link1](https://www.geeksforgeeks.org/find-frequency-number-array/)<br>
 [Link2](https://www.geeksforgeeks.org/vector-of-vectors-in-c-stl-with-examples/)
 
