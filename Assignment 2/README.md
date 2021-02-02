@@ -1,0 +1,87 @@
+# Assignment-2
+
+**Team Members**
+|   Enrollment No.  |   Name   | GithubId |
+|   --------------  |   ----   | -------- |
+|    IIT2019030  |   Kaushal Kumar | kingkapoork |
+|    IIT2019031  |   Sarvesh | sarvesh-11 | 
+|    IIT2019032  |   Aarushi | shee35  |
+
+**Group No-**"10"
+
+**Faculty Name-**"Mohammad Javed"
+
+**Mentor Name-** "Mr. Meraz"
+
+---
+## Problem Statement
+Prepare a matrix of random characters of size 50×50 and check for valid English words diagonally.
+
+---
+## How to use code
+Download the source code and run it on any gcc compiler machine. It will ask you for the size of matrix and print the result by random generated matrix's frequency distribution table. 
+```
+#Download project
+git clone https://github.com/shee35/daa 
+```
+---
+
+**Test case**
+
+
+Test Case-1
+Input
+```
+Enter the size of matrix (length and breadth)
+4 4
+```
+Output
+```
+The matrix generated is:
+25 46 75 53 
+69 38 75 18 
+62 83 49 67 
+92 73 22 66 
+
+THE FREQUENCY DISTRIBUTION ARE AS FOLLOWS: 
+
+frequency of 18->1 and locations are->(2,4) 
+frequency of 22->1 and locations are->(4,3) 
+frequency of 25->1 and locations are->(1,1) 
+frequency of 38->1 and locations are->(2,2) 
+frequency of 46->1 and locations are->(1,2) 
+frequency of 49->1 and locations are->(3,3) 
+frequency of 53->1 and locations are->(1,4) 
+frequency of 62->1 and locations are->(3,1) 
+frequency of 66->1 and locations are->(4,4) 
+frequency of 67->1 and locations are->(3,4) 
+frequency of 69->1 and locations are->(2,1) 
+frequency of 73->1 and locations are->(4,2) 
+frequency of 75->2 and locations are->(1,3) (2,3) 
+frequency of 83->1 and locations are->(3,2) 
+frequency of 92->1 and locations are->(4,1) 
+```
+---
+
+### Theory
+According to the given problem statement we have to generate a 2D matrix, with 2 digit positive integer value and accordingly generate its frequency distribution table along with the position of each value as situated in the generated matrix. Here, we have used hashing techniques to store the frequencies of the elements in an array and mapped their values to the positions in which they are situated. To store the key/value pair, you can use a simple array like a data structure where keys (integers) can be used directly as an index to store values. However, in cases where the keys are large and cannot be used directly as an index, you should use a hash function. The mapping is done using a 2D vector and pair to store x-y indexes
+
+---
+
+### Analysis
+
+**Time Complexity**
+
+In all the cases, time complexity will always be same as O(n*m). As we have to do the 3 computations: first begin the generation of random arrays. Second being the computation of frequency array and the last one is print the frequency array. For first and second Computation, time complexity is always O(n*m). For third computation, time complexity is equals to the O(no. of distinct elements*respective occurrence) and ultimately this comes as the O(n*m) So overall time complexity is O(n*m).
+
+**Space Complexity**
+
+The complexity of both the algorithm is almost same for small inputs which is generally O(n*m) but for large inputs algorithm 2 is more efficient than algorithm 1 because it will reduce unnecessary wastage of memory and solve the problems in O(n*m) complexity.
+
+---
+
+### References
+
+[Link1](https://www.geeksforgeeks.org/find-frequency-number-array/)<br>
+[Link2](https://www.geeksforgeeks.org/vector-of-vectors-in-c-stl-with-examples/)
+
