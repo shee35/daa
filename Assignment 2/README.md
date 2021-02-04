@@ -24,64 +24,64 @@ Download the source code and run it on any gcc compiler machine. It will ask you
 #Download project
 git clone https://github.com/shee35/daa 
 ```
+* Then get into the folder Assignment-2
+* Run the code using any python compiler
 ---
 
 **Test case**
 
 
 Test Case-1
-Input
-```
-Enter the size of matrix (length and breadth)
-4 4
-```
+Input  
+**"No Input required"**
+
 Output
 ```
-The matrix generated is:
-25 46 75 53 
-69 38 75 18 
-62 83 49 67 
-92 73 22 66 
-
-THE FREQUENCY DISTRIBUTION ARE AS FOLLOWS: 
-
-frequency of 18->1 and locations are->(2,4) 
-frequency of 22->1 and locations are->(4,3) 
-frequency of 25->1 and locations are->(1,1) 
-frequency of 38->1 and locations are->(2,2) 
-frequency of 46->1 and locations are->(1,2) 
-frequency of 49->1 and locations are->(3,3) 
-frequency of 53->1 and locations are->(1,4) 
-frequency of 62->1 and locations are->(3,1) 
-frequency of 66->1 and locations are->(4,4) 
-frequency of 67->1 and locations are->(3,4) 
-frequency of 69->1 and locations are->(2,1) 
-frequency of 73->1 and locations are->(4,2) 
-frequency of 75->2 and locations are->(1,3) (2,3) 
-frequency of 83->1 and locations are->(3,2) 
-frequency of 92->1 and locations are->(4,1) 
+['A', 'Au', 'Oz', 'QED', 'ED', 'Dr', 'is', 'UV', 'oke', 'Bd', 'ls', 'It', 'Rf', 'CH', 'CHG', 'HG', 'GP']
 ```
 ---
 
-### Theory
-According to the given problem statement we have to generate a 2D matrix, with 2 digit positive integer value and accordingly generate its frequency distribution table along with the position of each value as situated in the generated matrix. Here, we have used hashing techniques to store the frequencies of the elements in an array and mapped their values to the positions in which they are situated. To store the key/value pair, you can use a simple array like a data structure where keys (integers) can be used directly as an index to store values. However, in cases where the keys are large and cannot be used directly as an index, you should use a hash function. The mapping is done using a 2D vector and pair to store x-y indexes
+## **Theory**
+According to the given problem statement, we had to check if any word in
+the diagonals are valid or not, therefore we have made use of PyEnchant
+library from python. Enchant is used
+to check the spelling of words and
+suggest corrections for words that are
+miss-spelled. It can use many popular spellchecking packages to perform
+this task, including Ispell, Aspell and
+MySpell. It is quite flexible at handling
+multiple dictionaries and multiple languages. Dictionaries are created using
+a language tag which specifies the language to be checked The language tag
+used here signifies American English.
+If the language tag is not specified, an
+attempt is made to determine the language currently in use. This is not always possible, in which case an Error
+is raised.
 
 ---
 
-### Analysis
+## **Analysis**
 
 **Time Complexity**
 
-In all the cases, time complexity will always be same as O(n*m). As we have to do the 3 computations: first begin the generation of random arrays. Second being the computation of frequency array and the last one is print the frequency array. For first and second Computation, time complexity is always O(n*m). For third computation, time complexity is equals to the O(no. of distinct elements*respective occurrence) and ultimately this comes as the O(n*m) So overall time complexity is O(n*m).
+In case of time complexity the loops
+are running completely through the entire fixed matrix for twice. So, after
+accordingly analysing the pseudo code
+we can infer that time complexity will
+be the size of matrix.
 
 **Space Complexity**
 
-The complexity of both the algorithm is almost same for small inputs which is generally O(n*m) but for large inputs algorithm 2 is more efficient than algorithm 1 because it will reduce unnecessary wastage of memory and solve the problems in O(n*m) complexity.
+As the size for the matrix is fixed according to the problem statement thus,
+the space used by any of the algorithm
+will be constant and equal to that fixed
+value. Here the space complexity is
+50x50.
 
 ---
 
 ### References
 
-[Link1](https://www.geeksforgeeks.org/find-frequency-number-array/)<br>
-[Link2](https://www.geeksforgeeks.org/vector-of-vectors-in-c-stl-with-examples/)
+[Introduction to PyEnchant](https://pyenchant.github.io/pyenchant/tutorial.html)<br>
+[PyEnchant](https://pypi.org/project/pyenchant/
+)
 
