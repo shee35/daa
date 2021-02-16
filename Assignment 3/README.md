@@ -73,6 +73,7 @@ According to the given problem statement, we had to find the maximum and minimum
 ## **Analysis**
 
 **Time Complexity**
+
 Here, we go through the complete array and checks for the smallest or the largest number as compared to the previously initialised variables to store the maximum and the minimum elements. So, as we go through the array once completely the time complexity of this algorithm is O(N).
 
 
