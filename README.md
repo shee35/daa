@@ -1,4 +1,4 @@
-# Assignment-1
+# Assignments
 
 **Team Members**
 |   Enrollment No.  |   Name   | GithubId |
