@@ -66,7 +66,8 @@ Minimum element is 3777
 ---
 
 ## **Theory**
-According to the given problem statement, we had to find the maximum and minimum element of the array. Here we have to apply search for the maximum and the minimum of all the element in the array.This problem can be solved in the two different methods i.e Recursive and Iterative, but as stated in the problem we have only discussed the iterative version of the algorithm. So, basically for this problem we can have many algorithm but only the most popular and the most acceptable algorithm are discussed in the paper. Also we have discussed the time and space complexity of all the different algorithms used and accordingly came up with the best suitable algorithm for the problem.
+According to the given problem statement, we had to find the maximum and minimum element of the array. Here we have to apply search for the maximum and the minimum of all the element in the array.This problem can be solved in the two different methods i.e Recursive and Iterative, but as stated in the problem we have only discussed the iterative version of the algorithm. So, basically for this problem we can have many algorithm but only the most popular and the most acceptable algorithm are discussed in the paper. Also we have discussed the time and space complexity of all the different algorithms used and accordingly came up with the best suitable algorithm for the problem.  
+
 ---
 
 ## **Analysis**
@@ -77,7 +78,10 @@ Here, we go through the complete array and checks for the smallest or the larges
 
 **Space Complexity**
 
-As for this algorithm we are not using any memory so the space complexity for this is O(1).
+As for this algorithm we are not using any memory
+so the space complexity for this is O(1).
+
+
 ---
 
 ### References
